@@ -1,0 +1,35 @@
+# The current dataset is version 3.0, updated to 21 categories, of which 20 categories are valid data.
+# The data with protruding spleen and stomach areas will be updated in the future, and the remaining data is also in the process of correction.
+# To ensure the normal operation of the program, please set the configuration file in the following category order.
+
+# path
+train:
+val:
+test:
+
+# number of classes
+nc: 21
+
+# Classes names For YOLO
+names:
+  0: jiankangshe
+  1: botaishe
+  2: hongshe
+  3: zishe
+  4: pangdashe
+  5: shoushe
+  6: hongdianshe
+  7: liewenshe
+  8: chihenshe
+  9: baitaishe
+  10: huangtaishe
+  11: heitaishe
+  12: huataishe
+  13: shenquao
+  14: shenqutu
+  15: gandanao
+  16: gandantu
+  17: piweiao
+  18: piweitu
+  19: xinfeiao
+  20: xinfeitu
